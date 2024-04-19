@@ -13,8 +13,12 @@ html, body {
 
 .card {
   background-color: #fff;
-  padding: 20px 20px 35px;
+  padding: 16px 16px 40px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .qr > img {
@@ -24,12 +28,15 @@ html, body {
 }
 
 .card-title {
+  margin-top: 24px;
   text-align: center;
   color: #1F314F;
   font-weight: 700;
+  font-size: 21px;
 }
 
 .description {
+  margin-top: 16px;
   text-align: center;
   font-size: 15px;
   color: #7D889E;
